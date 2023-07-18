@@ -150,6 +150,79 @@ nav {
   cursor: pointer;
   margin-top: 22px;
 }
+/* ............................we-are-gamer-section..................... */
+.we-are-gamer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.we-are-gamer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+.right-gamer {
+  width: 47%;
+  text-align: right;
+}
+.left-gamer {
+  width: 53%;
+}
+.left-gamer img {
+  width: 100%;
+}
+.gamer-heading {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gamer-desc {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.know-more-btn {
+  padding: 12px 29px;
+  border: none;
+  outline: none;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 22px;
+}
+.bottom-gamer-desc1 {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.bottom-gamer-desc2 {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
 /* .........................Responsive part for mobile device.......................... */
 @media screen and (max-width: 576px) {
   /* navbar section*/
@@ -167,7 +240,7 @@ nav {
   .manu-bar li a {
     margin-top: 20px;
   }
-  /* banner section */
+  /* .........................banner section .................*/
   .banner-section-container {
     flex-direction: column-reverse;
   }
@@ -190,5 +263,16 @@ nav {
   }
   .content-container {
     margin: 10px;
+  }
+  /* .................... we are gamer section ..............*/
+  .we-are-gamer-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .left-gamer {
+    width: 100%;
+  }
+  .right-gamer {
+    width: 100%;
   }
 }
