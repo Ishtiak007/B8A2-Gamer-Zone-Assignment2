@@ -60,6 +60,9 @@ nav {
 .fa-tiktok {
   color: black;
 }
+.fa-download {
+  color: coral;
+}
 /* ......................... banner section .......................................... */
 .banner-section-container {
   display: flex;
@@ -364,8 +367,8 @@ nav {
 
 .game-lists-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 27px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 23px;
   place-items: center;
 }
 /* .....................play instantly............... */
@@ -437,7 +440,7 @@ nav {
   margin-top: 120px;
 }
 .online-heading {
-  text-align: right;
+  text-align: left;
   font-family: Work Sans;
   font-size: 48px;
   font-weight: 700;
@@ -445,7 +448,7 @@ nav {
 }
 .online-desc {
   color: #534c64;
-  text-align: right;
+  text-align: left;
   font-family: Work Sans;
   font-size: 18px;
   font-weight: 400;
@@ -568,11 +571,14 @@ nav {
   font-weight: 500;
   margin-top: 24px;
 }
-.footer-icon {
-  margin: 50px 0px;
-}
+
 .white-color {
   color: #fff;
+}
+.footer-icon {
+  color: white;
+  font-size: 2rem;
+  margin: 40px 5px;
 }
 /* ..........................Responsive part for mobile device........................................... */
 @media screen and (max-width: 576px) {
@@ -626,7 +632,23 @@ nav {
   .right-gamer {
     width: 100%;
   }
+  .gamer-heading {
+    text-align: center;
+  }
+  .gamer-desc {
+    text-align: center;
+  }
+  .bottom-gamer-desc1,
+  .bottom-gamer-desc2 {
+    text-align: center;
+  }
+  .right-gamer-container {
+    text-align: center;
+  }
   /* ..................online game funny videos section............. */
+  .online-game {
+    padding: 10px 15px;
+  }
   .online-game-container {
     flex-direction: column;
     padding: 8px;
@@ -651,6 +673,9 @@ nav {
   }
   .game-name {
     font-size: 12px;
+  }
+  .card {
+    margin: 3px 0px;
   }
   /* .........................footer section.................. */
   .footer-container {
@@ -695,7 +720,7 @@ nav {
   }
   .plan-image {
     margin: 0 auto;
-    margin-top: 65px;
+    margin-top: 47px;
   }
   .main-image {
     width: 250px;
@@ -722,7 +747,7 @@ nav {
   }
   /* .................. */
   .online-anywhere-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .main-image2 {
     width: 250px;
@@ -751,6 +776,81 @@ nav {
   }
   .plan2-image {
     margin: 0 auto;
-    margin-top: 65px;
+    margin-top: 47px;
+  }
+}
+/* .......................................responsive for tablet ........................... */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .navbar,
+  .banner-section-container,
+  .play-instantly-container,
+  .careers-container {
+    flex-direction: column;
+  }
+  .we-are-gamer-container {
+    flex-direction: column-reverse;
+  }
+  .right-gamer,
+  .left-gamer,
+  .right-banner,
+  .left-banner {
+    width: 100%;
+    padding: 15px;
+  }
+  .online-game-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .play-instantly-container {
+    flex-direction: column;
+  }
+  .plan-image {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .main-image {
+    width: 350px;
+  }
+  .bagde-img {
+    width: 180px;
+    position: relative;
+    top: -100px;
+    left: -50px;
+  }
+  .plan2-image {
+    margin: 0 auto;
+  }
+  .online-anywhere-container {
+    flex-direction: column-reverse;
+  }
+  .main-image2 {
+    width: 350px;
+  }
+  .bagde-img2 {
+    width: 180px;
+    position: relative;
+    top: -80px;
+    left: 240px;
+    border-radius: 8px;
+    border: 3px solid #fff;
+  }
+  .online-instantly,
+  .plan-instantly {
+    width: 80%;
+  }
+  .left-careers {
+    width: 90%;
+  }
+  .game-lists-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer-para {
+    font-size: 14px;
+  }
+  .right-banner {
+    width: 100%;
+  }
+  .right-banner img {
+    width: 100%;
   }
 }
