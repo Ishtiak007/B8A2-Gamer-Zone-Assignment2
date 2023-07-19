@@ -332,8 +332,9 @@ nav {
 /* ...........game lists container.......... */
 .game-lists {
   max-width: 1330px;
-  /* padding: 100px 50px; */
   margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .game-card img {
   width: 50px;
@@ -374,25 +375,84 @@ nav {
 }
 .play-instantly-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.left-play-instantly {
-  width: 50%;
+.main-image {
+  width: 500px;
 }
-.right-play-instantly {
-  width: 50%;
-}
-.right-play-instantly img {
-  width: 100%;
-  padding: 22px;
-}
-.chile-image {
+.bagde-img {
+  width: 250px;
   position: relative;
-  width: 300px;
-  bottom: 50%;
-  right: 30%;
+  top: -160px;
+  left: -150px;
+  border-radius: 8px;
+  border: 3px solid #fff;
 }
+.plan-instantly {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.plan-heading {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.plan-desc {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.play-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .................... */
+.online-anywhere-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.main-image2 {
+  width: 500px;
+}
+.bagde-img2 {
+  width: 250px;
+  position: relative;
+  top: -160px;
+  left: 350px;
+  border-radius: 8px;
+  border: 3px solid #fff;
+}
+.online-instantly {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.online-heading {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.online-desc {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
 /* ......................careers section......................*/
 .careers {
   max-width: 1330px;
@@ -620,13 +680,77 @@ nav {
   /* .............careers section............... */
   .careers-container {
     flex-direction: column;
-    padding: 30px;
+    padding: 0px;
   }
   .left-careers {
     width: 100%;
   }
-  .see-positions-btn {
-    padding: 12px 20px;
-    font-size: 12px;
+  .row {
+    padding: 30px;
+  }
+  /* .....................play instantly ........................ */
+
+  .play-instantly-container {
+    flex-direction: column;
+  }
+  .plan-image {
+    margin: 0 auto;
+    margin-top: 65px;
+  }
+  .main-image {
+    width: 250px;
+  }
+  .bagde-img {
+    width: 120px;
+    position: relative;
+    top: -100px;
+    left: -50px;
+  }
+  .plan-instantly {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .plan-heading {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .plan-desc {
+    text-align: center;
+    font-size: 18px;
+  }
+  /* .................. */
+  .online-anywhere-container {
+    flex-direction: column;
+  }
+  .main-image2 {
+    width: 250px;
+  }
+  .bagde-img2 {
+    width: 120px;
+    position: relative;
+    top: -80px;
+    left: 170px;
+    border-radius: 8px;
+    border: 3px solid #fff;
+  }
+  .online-instantly {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .online-heading {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .online-desc {
+    text-align: center;
+    font-size: 18px;
+  }
+  .plan2-image {
+    margin: 0 auto;
+    margin-top: 65px;
   }
 }
