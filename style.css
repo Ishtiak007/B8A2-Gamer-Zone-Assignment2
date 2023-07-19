@@ -621,6 +621,15 @@ nav {
   .content-container {
     margin: 10px;
   }
+  .go-rogue-btn {
+    padding: 7px 14px;
+  }
+  .sign-in-btn {
+    padding: 7px 14px;
+  }
+  .know-more-btn {
+    padding: 7px 14px;
+  }
   /* .................... we are gamer section ..............*/
   .we-are-gamer-container {
     flex-direction: column;
@@ -669,10 +678,10 @@ nav {
     padding: 10px;
   }
   .game-card img {
-    width: 25px;
+    width: 21px;
   }
   .game-name {
-    font-size: 12px;
+    font-size: 9px;
   }
   .card {
     margin: 3px 0px;
@@ -710,8 +719,11 @@ nav {
   .left-careers {
     width: 100%;
   }
+  .right-careers {
+    width: 100%;
+  }
   .row {
-    padding: 30px;
+    padding: 10px;
   }
   /* .....................play instantly ........................ */
 
