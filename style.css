@@ -800,6 +800,7 @@ nav {
   .online-game-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 20px;
   }
   .play-instantly-container {
     flex-direction: column;
